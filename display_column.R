@@ -1,0 +1,7 @@
+library(dplyr)
+df1 <- data.frame(A = 1:5, B = 6:10, E = 11:15)
+df1 <- read_excel("C:/Users/WIN 11/OneDrive/Desktop/us_state_vaccinations.xlsx")
+df1 %>% select(1, 2, 4)
+df1 <- as.data.frame(df1)
+df2 <- df1 %>% select(1, 2, 4)
+View(df2)
