@@ -70,3 +70,19 @@ shapiro_alaska_2021
 shapiro_dc_2021
 shapiro_alaska_2023
 shapiro_dc_2023
+
+# Add log-transformed column
+filtered_data <- filtered_data %>%
+  mutate(log_daily_vaccinations = log1p(daily_vaccinations))
+
+# Histogram for log-transformed data
+ggplot(filtered_data, aes(x = log_daily_vaccinations)) +
+  geom_histogram(aes(y = after_stat(density)), bins = 30, fill = "blue", alpha = 0.7, color = "black") +
+  geom_density(color = "red", size = 1) +
+  facet_wrap(~location + year(date)) +
+  labs(
+    title = "Log-Transformed Histogram with Density Plot",
+    x = "Log(Daily Vaccinations + 1)",
+    y = "Density"
+  ) +
+  theme_minimal()
