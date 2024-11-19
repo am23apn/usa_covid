@@ -38,3 +38,16 @@ ggplot(summary_table, aes(x = as.factor(year), y = mean_daily_vaccinations, fill
     y = "Mean Daily Vaccinations"
   ) +
   theme_minimal()
+
+
+# Plot histogram for daily vaccinations
+ggplot(filtered_data, aes(x = daily_vaccinations)) +
+  geom_histogram(aes(y = after_stat(density)), bins = 30, fill = "blue", alpha = 0.7, color = "black") +
+  geom_density(color = "red", size = 1) +
+  facet_wrap(~location + year(date)) +
+  labs(
+    title = "Histogram with Density Plot of Daily Vaccinations",
+    x = "Daily Vaccinations",
+    y = "Density"
+  ) +
+  theme_minimal()
