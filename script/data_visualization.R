@@ -51,3 +51,22 @@ ggplot(filtered_data, aes(x = daily_vaccinations)) +
     y = "Density"
   ) +
   theme_minimal()
+
+
+# Split data by location and year
+data_2021 <- filtered_data %>% filter(year(date) == 2021)
+data_2023 <- filtered_data %>% filter(year(date) == 2023)
+
+# Shapiro-Wilk test for 2021
+shapiro_alaska_2021 <- shapiro.test(data_2021 %>% filter(location == "Alaska") %>% pull(daily_vaccinations))
+shapiro_dc_2021 <- shapiro.test(data_2021 %>% filter(location == "District of Columbia") %>% pull(daily_vaccinations))
+
+# Shapiro-Wilk test for 2023
+shapiro_alaska_2023 <- shapiro.test(data_2023 %>% filter(location == "Alaska") %>% pull(daily_vaccinations))
+shapiro_dc_2023 <- shapiro.test(data_2023 %>% filter(location == "District of Columbia") %>% pull(daily_vaccinations))
+
+# Print results
+shapiro_alaska_2021
+shapiro_dc_2021
+shapiro_alaska_2023
+shapiro_dc_2023
