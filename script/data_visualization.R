@@ -86,3 +86,7 @@ ggplot(filtered_data, aes(x = log_daily_vaccinations)) +
     y = "Density"
   ) +
   theme_minimal()
+
+# Perform Wilcoxon test (non-parametric alternative)
+wilcox_test <- wilcox.test(log_daily_vaccinations ~ location, data = filtered_data)
+wilcox_test
