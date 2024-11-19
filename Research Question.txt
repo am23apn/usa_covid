@@ -16,3 +16,6 @@ Is there a correlation between people fully vaccinated and total vaccinations?
 //Well Done Here is my below suggestion
 
 Is there a difference in the mean number of daily COVID vaccinations between American Samoa and Northern Mariana Islands during the initial rollout in 2021 and the booster campaigns in 2023?
+
+Great job everyone, we could not use the correlation questions as we have cummulation interval data which may get difficult to comprehend. The last question is an excellent suggestion we can refine it as
+Is there a difference in the mean number of daily COVID vaccinations between American Samoa and Northern Mariana Islands in 2021 and 2023?
