@@ -18,4 +18,16 @@ Insights: Identifies effective strategies for vaccine distribution in urban vs. 
 Actionable Learnings:
 Provides lessons on tailoring public health strategies to unique regional challenges, which can be applied to other urban or remote areas.
 This comparison offers a deeper understanding of how location-specific factors influence vaccination outcomes.
- 
+
+
+
+
+
+## Folder Structure
+- `data/`: Contains the CSV file(s) required for analysis.
+- `script/`: Contains R scripts for analysis.
+
+## How to Run
+1. Clone the repository
+2. Open the `data_visualization.R` file in RStudio.
+3. Run the script. The data file is automatically loaded from the `data/` folder.
