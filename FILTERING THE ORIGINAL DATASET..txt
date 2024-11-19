@@ -1,0 +1,21 @@
+DOCUMENT OF FILTERING THE ORIGINAL DATASET IN RStudio.
+
+Task Breakdown:
+ 
+Task 1. Filter three columns from original dataset 
+
+-Date
+-Location
+-Daily vaccinations.
+
+Task 2. Now create Histogram for all the states in the dataset to better understand the trend.
+
+Task 3. Now Filter 2 states which we selected in our Research Question.
+
+-America Samoa.
+-Northern Mariana Islands.
+
+Task 4. Now Filter 2 years data from the filtered data as per the Research Question.
+
+-2021
+-2023
