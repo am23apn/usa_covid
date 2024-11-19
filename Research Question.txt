@@ -12,3 +12,7 @@ Is there a correlation between people fully vaccinated and total vaccinations?
 //Great Zeeshan, Here below is my suggestion//
 
 "Is there a correlation between people vaccinated and total vaccinations"
+
+//Abhinash Mehra Here is my suggestion
+
+Is there a difference in the mean number of daily COVID vaccinations between American Samoa and Northern Mariana Islands during the initial rollout in 2021 and the booster campaigns in 2023?
