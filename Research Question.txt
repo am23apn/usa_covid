@@ -1,2 +1,6 @@
 Sample Research Question(s):
-"Is there a difference in the mean percentage of the population fully vaccinated between states with high and low vaccine distribution?"
+"Is there a correlation between people fully vaccinated and total vaccinations"
+
+Great Farhan, I have one more suggestion for research question please look at this.
+
+Is there a correlation between total vaccinations and total distributed?
