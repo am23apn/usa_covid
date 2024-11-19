@@ -12,8 +12,8 @@ Task 2. Now create Histogram for all the states in the dataset to better underst
 
 Task 3. Now Filter 2 states which we selected in our Research Question.
 
--America Samoa.
--Northern Mariana Islands.
+-Alaska
+-District of Columbia.
 
 Task 4. Now Filter 2 years data from the filtered data as per the Research Question.
 
