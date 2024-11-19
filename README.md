@@ -1,13 +1,21 @@
 Finalized Research Question:
-Is there a difference in the mean number of daily COVID vaccinations between American Samoa and Northern Mariana Islands in 2021 and 2023?
+Is there a difference in the mean number of daily COVID vaccinations between District of Columbia and Alaska in 2021 and 2023?
 
-The decided question provides following insights
+The question provides insightful information by:
 
-Did one territory achieve a higher vaccination rate during the initial phase due to better infrastructure or public acceptance?
+Geographic and Demographic Contrasts:
+The District of Columbia is a densely populated urban area, while Alaska is sparsely populated with significant logistical challenges due to its remote locations.
+Insights: Highlights how geography and population density impact vaccination strategies.
 
-Was one territory more successful in sustaining public interest in booster shots during 2023?
+Temporal Comparisons:
+Comparing 2021 (rollout phase) with 2023 (booster campaigns) reveals how each region sustained vaccination momentum over time.
+Insights: Shows differences in vaccine adoption between initial and later phases.
 
-What challenges (e.g., vaccine hesitancy, access issues) might have caused disparities in daily rates between the territories?
+Policy and Access Differences:
+DC likely had better infrastructure and outreach in an urban setting, whereas Alaska may have relied on innovative solutions to overcome access barriers.
+Insights: Identifies effective strategies for vaccine distribution in urban vs. remote regions.
 
-How do differences in governance and resource allocation affect vaccination outcomes in these territories?
+Actionable Learnings:
+Provides lessons on tailoring public health strategies to unique regional challenges, which can be applied to other urban or remote areas.
+This comparison offers a deeper understanding of how location-specific factors influence vaccination outcomes.
  

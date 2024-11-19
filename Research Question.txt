@@ -19,3 +19,8 @@ Is there a difference in the mean number of daily COVID vaccinations between Ame
 
 Great job everyone, we could not use the correlation questions as we have cummulation interval data which may get difficult to comprehend. The last question is an excellent suggestion we can refine it as
 Is there a difference in the mean number of daily COVID vaccinations between American Samoa and Northern Mariana Islands in 2021 and 2023?
+
+ONE MORE IMPORTANT ISSUE !!!
+The two territories American Samoa and Northern Mariana Islands are quiet similar in terms of population and total vaccinations. We might not be able to deduce any meaningful and actionable insight or conclusion working with these specific locations. I have refined the question a bit. We are now working on District of Columbia and Alaska.
+Updated Research Question
+Is there a difference in the mean number of daily COVID vaccinations between Alaska and District of Columbia in 2021 and 2023?
