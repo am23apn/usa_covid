@@ -90,3 +90,20 @@ ggplot(filtered_data, aes(x = log_daily_vaccinations)) +
 # Perform Wilcoxon test (non-parametric alternative)
 wilcox_test <- wilcox.test(log_daily_vaccinations ~ location, data = filtered_data)
 wilcox_test
+
+
+# Boxplot for daily vaccinations
+ggplot(filtered_data, aes(x = location, y = daily_vaccinations, fill = location)) +
+  geom_boxplot(outlier.color = "red", outlier.shape = 16, outlier.size = 2) +
+  facet_wrap(~year(date)) +
+  labs(
+    title = "Daily COVID Vaccinations in Alaska and DC by Year",
+    x = "Location",
+    y = "Daily Vaccinations"
+  ) +
+  theme_minimal() +
+  theme(legend.position = "none") +
+  scale_fill_manual(values = c("Alaska" = "blue", "District of Columbia" = "green"))
+
+
+
