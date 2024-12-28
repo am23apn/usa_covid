@@ -1,0 +1,278 @@
+commit 463f57d63d348b7b0a516051fb30367153724765
+Author: Farhan Tauqeer <ft23aan@herts.ac.uk>
+Date:   Wed Nov 20 00:53:41 2024 +0000
+
+    Adds gitlog.xlsx file
+
+commit a438df8bb812ecdcc82f439889b4658872d8f438
+Author: Farhan Tauqeer <ft23aan@herts.ac.uk>
+Date:   Wed Nov 20 00:48:05 2024 +0000
+
+    Adds histogram according to the research question
+
+commit 07865af68e278179ca7ea340c60e99eaa36a44d6
+Author: Farhan Tauqeer <ft23aan@herts.ac.uk>
+Date:   Wed Nov 20 00:46:28 2024 +0000
+
+    Adds boxplot according to the research Question
+
+commit f9a1982d12fe0a543216e3cfc90f2a0294ed3953
+Author: Shoukat <hs23adj@herts.ac.uk>
+Date:   Wed Nov 20 00:29:56 2024 +0000
+
+    Creates boxplot to visualize daily COVID vaccination distributions by location and year
+    
+    - Plots a boxplot to compare daily vaccination distributions for Alaska and DC.
+    - Facets the visualization by year (2021 and 2023) for clearer temporal insights.
+    - Highlights outliers and applied color coding for locations to enhance readability.
+    - Provides a visual summary of central tendencies and variability across locations and years.
+
+commit b8a31d894ed30fcc1675b2c1b68435c52f857f61
+Author: Farhan Tauqeer <ft23aan@herts.ac.uk>
+Date:   Tue Nov 19 23:32:42 2024 +0000
+
+    Updates README.md
+
+commit 2a2dfa7932cb449bc9c3ae4b3253fec9d99ea47b
+Author: Farhan Tauqeer <ft23aan@herts.ac.uk>
+Date:   Tue Nov 19 23:30:02 2024 +0000
+
+    Conducts Wilcoxon rank-sum test to compare log-transformed daily COVID vaccinations
+    
+    - Performs a non-parametric Wilcoxon rank-sum test to assess differences in log-transformed daily vaccination distributions between Alaska and DC.
+    - Provides statistical evidence for significant differences in vaccination patterns across locations.
+
+commit 25f4b8838762a1616e665e5d755fe5ce9c233214
+Author: Abhinash Mehra <am23apn@herts.ac.uk>
+Date:   Tue Nov 19 23:25:18 2024 +0000
+
+    Applies log transformation and visualize log-transformed daily COVID vaccination data
+    
+    - Adds a new column for log-transformed daily vaccinations using log1p to handle zero values.
+    - Plots a histogram with overlaid density plot for the log-transformed data.
+    - Facets the visualization by location (Alaska, DC) and year (2021, 2023).
+    - Improves symmetry of the data for better analysis and interpretation.
+
+commit d6c76ccc0febec8129d0709ec7669b765adadd5d
+Author: Muhammad Zeeshan Yousaf <my23abh@herts.ac.uk>
+Date:   Tue Nov 19 23:23:35 2024 +0200
+
+    Adds Shapiro-Wilk normality tests for daily COVID vaccinations by location and year
+    
+    - Splits filtered data into subsets for 2021 and 2023.
+    - Conducts Shapiro-Wilk tests for Alaska and DC in 2021 and 2023.
+    - Assess normality of daily vaccination data for each location-year subset.
+    - Provides a statistical foundation for choosing appropriate analysis methods.
+
+commit 5da9a825df6b8b4b425086e83eb07705ccc2e3b9
+Author: Muhammad Abdullah Khan <mk23agj@herts.ac.uk>
+Date:   Tue Nov 19 23:11:06 2024 +0000
+
+    Adds histogram and density plot for daily COVID vaccinations by location and year
+    
+    - Plots histogram for daily vaccinations with overlaid density curves.
+    - Facets the visualization by location (Alaska, DC) and year (2021, 2023).
+    - Enhances readability with appropriate labels and a minimal theme.
+    - Provides insights into the distribution of daily vaccination data.
+
+commit 4aa12968051197c25109b33c675e10c3037ef0ba
+Author: Farhan Tauqeer <ft23aan@herts.ac.uk>
+Date:   Tue Nov 19 23:00:49 2024 +0000
+
+    Adds folder structure and instructions to run the project on RStudio
+
+commit 985ae8a32386b29da78a6591a99262893f7bba4e
+Author: Farhan Tauqeer <ft23aan@herts.ac.uk>
+Date:   Tue Nov 19 22:56:40 2024 +0000
+
+    Adds data preprocessing and visualization for COVID vaccinations in Alaska and DC
+    
+    - LoadS required libraries (dplyr, ggplot2, lubridate).
+    - Imports and formats the vaccination dataset.
+    - Filters data for Alaska and DC for 2021 and 2023.
+    - Handles missing values in daily vaccinations.
+    - Summarizes mean daily vaccinations by location and year.
+    - Creates a bar plot to visualize mean daily vaccinations for the selected years and locations.
+
+commit 80639426cd7cab972fb2c40d7932533d87244cb6
+Author: Farhan Tauqeer <ft23aan@herts.ac.uk>
+Date:   Tue Nov 19 22:45:38 2024 +0000
+
+    Adds the dataset file inside the data subdirectory
+
+commit ff3b8bd2f12f6b5d8b0078b697bab7add917dbb2
+Author: Hamza Shoukat <hs23adj@herts.ac.uk>
+Date:   Tue Nov 19 21:28:45 2024 +0000
+
+    UPDATES RESEARCH QUESTION PPT
+
+commit 8387877e869e272ce07f0c91d1e4f04655a01656
+Author: Muhammad Zeeshan Yousaf <my23abh@herts.ac.uk>
+Date:   Tue Nov 19 21:27:53 2024 +0200
+
+    Updates the Filtering Plan
+
+commit a26f6bbc0668287183d387057195499a60e339d4
+Author: Farhan Tauqeer <ft23aan@herts.ac.uk>
+Date:   Tue Nov 19 21:21:40 2024 +0000
+
+    Updates with Finalized version of Research Question
+
+commit 1f7d1d4eac8e0307a95d82db3bee687eab1aa8e0
+Author: Muhammad Abdullah Khan <mk23agj@herts.ac.uk>
+Date:   Tue Nov 19 17:04:56 2024 +0000
+
+     Adds Filtering the original dataset in RStudio.txt
+
+commit a5a3eca47b92e38f69379ec4768eb8aaba1880fc
+Author: Farhan Tauqeer <ft23aan@herts.ac.uk>
+Date:   Tue Nov 19 16:35:02 2024 +0000
+
+    Adds finalized research question
+
+commit c3ea56af8d7e0f2ab4a20a0b0d6b6c62db4d7695
+Merge: 76996ac b486d22
+Author: Muhammad Abdullah Khan <mk23agj@herts.ac.uk>
+Date:   Tue Nov 19 16:28:53 2024 +0000
+
+    Merge branch 'main' of https://github.com/am23apn/usa_covid
+
+commit 76996ac5489cae1511478aa4bb4c774ed90c10c2
+Author: Muhammad Abdullah Khan <mk23agj@herts.ac.uk>
+Date:   Tue Nov 19 16:28:11 2024 +0000
+
+    Adds Final Research Question Presentation
+
+commit ac8892b90073b8c1dd8d6ed0d31bd6cdfeb321b1
+Author: Muhammad Abdullah Khan <mk23agj@herts.ac.uk>
+Date:   Tue Nov 19 16:25:35 2024 +0000
+
+    Adds the Final Research Question Presentation
+
+commit b486d2233d82cb54cd7ef2e1feb96eb0ba201ff0
+Author: Abhinash Mehra <am23apn@herts.ac.uk>
+Date:   Tue Nov 19 16:25:32 2024 +0000
+
+    latest changes
+
+commit 9afa5c9f512350208762ad83e69af8243785dfe1
+Merge: 42266cc 8a23dee
+Author: Abhinash Mehra <am23apn@herts.ac.uk>
+Date:   Tue Nov 19 16:24:09 2024 +0000
+
+    Merge branch 'main' of https://github.com/am23apn/usa_covid
+
+commit 42266ccf09500fedb2981324e2dd68a8c0a1c46e
+Author: Abhinash Mehra <am23apn@herts.ac.uk>
+Date:   Tue Nov 19 16:24:03 2024 +0000
+
+    new changes
+
+commit 8a23deeb04043a2e14eb04dbff1319d4ab6854f5
+Author: Farhan Tauqeer <ft23aan@herts.ac.uk>
+Date:   Tue Nov 19 16:20:56 2024 +0000
+
+    Adds Finalized Research Question
+
+commit 3eaac4b769d6c4e52944d51c3a2e5a978cd180a1
+Author: Abhinash Mehra <am23apn@herts.ac.uk>
+Date:   Tue Nov 19 16:08:58 2024 +0000
+
+    Here is my suggestion
+
+commit 1e70e23a27d5bf86e30bf26817004e6ec884824b
+Author: Hamza Shoukat <hs23adj@herts.ac.uk>
+Date:   Tue Nov 19 15:34:28 2024 +0000
+
+    UPDATES RESEARCH QUESTION.TXT
+
+commit 9da306884c44753879aed8f8a9ff431e4d8d106d
+Author: Muhammad Zeeshan Yousaf <my23abh@herts.ac.uk>
+Date:   Tue Nov 19 15:26:32 2024 +0200
+
+    updates research question.txt
+
+commit bcde72eeee3e255acecd629919eb13ca2e75e51f
+Author: Muhammad Abdullah Khan <mk23agj@herts.ac.uk>
+Date:   Tue Nov 19 15:14:54 2024 +0000
+
+     updates the intial draft of research question
+
+commit a94a9da916b47565ea553641aebb3b4f1b1346aa
+Author: Farhan Tauqeer <ft23aan@herts.ac.uk>
+Date:   Tue Nov 19 13:54:17 2024 +0000
+
+    Adds dataset and Initial draft of research question
+
+commit 8643c533604d7a83e14e6041f180742f9b5a7b19
+Author: Farhan Tauqeer <ft23aan@herts.ac.uk>
+Date:   Tue Nov 19 13:48:28 2024 +0000
+
+    Adds initial draft of research question
+
+commit 7d5f14a81e1b3508426e66d1cd7a354446d7b51b
+Author: Abhinash Mehra <am23apna@herts.ac.uk>
+Date:   Thu Nov 7 00:00:56 2024 +0000
+
+    display three column
+
+commit 5ef27efe870a0b0f2218e01dac0846801b690b6d
+Author: Abhinash Mehra <am23apna@herts.ac.uk>
+Date:   Tue Nov 5 23:52:56 2024 +0000
+
+    last changes
+
+commit 38518b1bdb075972cb404c7ffbc7fa83f91a4eda
+Merge: ed5f41e 46602a4
+Author: Abhinash Mehra <am23apna@herts.ac.uk>
+Date:   Tue Nov 5 23:51:56 2024 +0000
+
+    Merge unrelated histories
+
+commit ed5f41e17cc34790247653bfb2a05d977ad5cdc5
+Author: Abhinash Mehra <am23apna@herts.ac.uk>
+Date:   Tue Nov 5 23:42:23 2024 +0000
+
+    newwww
+
+commit f0608a7a942ca595133c1837e623b6ecb50f5079
+Author: Abhinash Mehra <am23apna@herts.ac.uk>
+Date:   Tue Nov 5 23:39:58 2024 +0000
+
+    new test
+
+commit 60726461dc0a830395034847575a85c301633532
+Author: Abhinash Mehra <am23apna@herts.ac.uk>
+Date:   Tue Nov 5 23:35:32 2024 +0000
+
+    changes
+
+commit bf536eba6a5f0e4af2dde17713d6a55efcc21033
+Author: Abhinash Mehra <am23apna@herts.ac.uk>
+Date:   Tue Nov 5 23:34:08 2024 +0000
+
+    new changes
+
+commit 00c361bcc3671cec2dd2decd059f71616ce91e54
+Author: Abhinash Mehra <am23apna@herts.ac.uk>
+Date:   Tue Nov 5 23:31:44 2024 +0000
+
+    changes
+
+commit 46602a45b098e348d7034eb892b7e605158b8958
+Author: Farhan Tauqeer <ft23aan@herts.ac.uk>
+Date:   Tue Nov 5 23:18:45 2024 +0000
+
+    Adds Dataset file DS022
+
+commit 759c1eb8c81de9bd215b2a7a69f3efbf75aab2f2
+Author: 3xploitx <hs23adj@herts.ac.uk>
+Date:   Sun Nov 3 01:20:49 2024 +0000
+
+    Create README.md
+
+commit 241e3c0d1983d98b829a9b31fb365696b3ee9d95
+Author: Abhinash Mehra <am23apna@herts.ac.uk>
+Date:   Tue Oct 15 16:30:53 2024 +0100
+
+    my first code push in the git
