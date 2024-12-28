@@ -1,4 +1,5 @@
 # Load libraries
+install.packages("ggplot2")
 library(dplyr)
 library(ggplot2)
 library(lubridate)  # For handling dates
@@ -43,10 +44,11 @@ ggplot(summary_table, aes(x = as.factor(year), y = mean_daily_vaccinations, fill
 # Plot histogram for daily vaccinations
 ggplot(filtered_data, aes(x = daily_vaccinations)) +
   geom_histogram(aes(y = after_stat(density)), bins = 30, fill = "blue", alpha = 0.7, color = "black") +
-  geom_density(color = "red", size = 1) +
-  facet_wrap(~location + year(date)) +
+  stat_function(fun = dnorm, args = list(mean = mean(filtered_data$daily_vaccinations, na.rm = TRUE),
+                                         sd = sd(filtered_data$daily_vaccinations, na.rm = TRUE)),
+                color = "red", size = 1) +
   labs(
-    title = "Histogram with Density Plot of Daily Vaccinations",
+    title = "Histogram with Bell Curve Overlay",
     x = "Daily Vaccinations",
     y = "Density"
   ) +
@@ -78,10 +80,11 @@ filtered_data <- filtered_data %>%
 # Histogram for log-transformed data
 ggplot(filtered_data, aes(x = log_daily_vaccinations)) +
   geom_histogram(aes(y = after_stat(density)), bins = 30, fill = "blue", alpha = 0.7, color = "black") +
-  geom_density(color = "red", size = 1) +
-  facet_wrap(~location + year(date)) +
+  stat_function(fun = dnorm, args = list(mean = mean(filtered_data$log_daily_vaccinations, na.rm = TRUE),
+                                         sd = sd(filtered_data$log_daily_vaccinations, na.rm = TRUE)),
+                color = "red", size = 1) +
   labs(
-    title = "Log-Transformed Histogram with Density Plot",
+    title = "Log-Transformed Histogram with Bell Curve Overlay",
     x = "Log(Daily Vaccinations + 1)",
     y = "Density"
   ) +
@@ -104,6 +107,27 @@ ggplot(filtered_data, aes(x = location, y = daily_vaccinations, fill = location)
   theme_minimal() +
   theme(legend.position = "none") +
   scale_fill_manual(values = c("Alaska" = "blue", "District of Columbia" = "green"))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
