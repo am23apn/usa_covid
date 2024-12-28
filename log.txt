@@ -1,3 +1,15 @@
+commit 939c3127a68214360bdbf03d6d2c42814a7ae253
+Author: Farhan Tauqeer <ft23aan@herts.ac.uk>
+Date:   Sat Dec 28 20:07:47 2024 +0000
+
+    Adds corrected histogram and log-transformed histogram scripts for improved data visualization
+
+commit a793d3700a1d4fe5ca50724f39c50f144f0f6c80
+Author: Farhan Tauqeer <ft23aan@herts.ac.uk>
+Date:   Sat Dec 28 19:55:41 2024 +0000
+
+    makes and adds log.txt file
+
 commit 463f57d63d348b7b0a516051fb30367153724765
 Author: Farhan Tauqeer <ft23aan@herts.ac.uk>
 Date:   Wed Nov 20 00:53:41 2024 +0000
