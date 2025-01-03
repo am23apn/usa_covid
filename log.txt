@@ -1,3 +1,39 @@
+commit 4714fb1a5a384c5d133552d59c1a21b723960fb4
+Author: Muhammad Abdullah Khan <mk23agj@herts.ac.uk>
+Date:   Fri Jan 3 01:38:31 2025 +0000
+
+    Adds conclusion to the Final Report
+
+commit 108f487a6142bd0484243fab60a90ece8cd3786c
+Author: Hamza Shoukat <hs23adj@herts.ac.uk>
+Date:   Fri Jan 3 01:34:32 2025 +0000
+
+    Adds Visualization to the Final Report
+
+commit ac5c4e707ca4f66a9d7e6e94893549d792c51c05
+Author: Abhinash Mehra <am23apn@herts.ac.uk>
+Date:   Fri Jan 3 01:18:53 2025 +0000
+
+    Adds Evalutation to the final report
+
+commit f5ef096bd148416c6473b9d77f4d7f38b12ec555
+Author: Muhammad Zeeshan Yousaf <my23abh@herts.ac.uk>
+Date:   Fri Jan 3 01:08:41 2025 +0200
+
+    Adds Analysis to the final report
+
+commit 2a58642bf6c1d50591ad543d5d8ef90c8a728e88
+Author: Farhan Tauqeer <ft23aan@herts.ac.uk>
+Date:   Fri Jan 3 00:38:06 2025 +0000
+
+    Adds the Introduction and Background to the Final Report
+
+commit 1af1aa2ea602b7de8c26f2e83e79967361f901ac
+Author: Farhan Tauqeer <ft23aan@herts.ac.uk>
+Date:   Sat Dec 28 20:15:25 2024 +0000
+
+    Adds the updated log.txt file
+
 commit 939c3127a68214360bdbf03d6d2c42814a7ae253
 Author: Farhan Tauqeer <ft23aan@herts.ac.uk>
 Date:   Sat Dec 28 20:07:47 2024 +0000
